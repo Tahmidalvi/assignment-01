@@ -1,7 +1,12 @@
+
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 0 ;
+    padding: 0 ;
+
   }
 
 .secondary-bg{
@@ -46,6 +51,8 @@ nav li a{
     align-items: center;
     background-image: url(assets/Hero-bg.png);
     height: 652px;
+    width: full;    
+    margin-right: 1000px;
 }
 
 .btn-fix{
@@ -64,13 +71,244 @@ nav li a{
     font-size: 12px;
     font-weight: 300px;
 }
+/* why developer */
+.about-item{
+    
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius:  16px;   
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.about-item h3{
+    width: 390px;
+height: 72px;
 
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about-item button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 450;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-right: 400px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.text-title{
+   
+    text-align: left;
+    padding: 20px;
+  
+}
+
+.you-text h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.you-text p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* current tr  */
+
+.currnt-tr-tx h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.currnt-tr-tx p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.currnt-tr-pic{
+   
+display: flex;
+justify-content: center;
+text-align: left;
+align-items: center;
+flex-direction: column;
+
+border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+padding: 10px;
+}
+.currnt-tr-pic button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+border: none;
+margin-right: 150px;
+}
+.currnt-tr-im{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 16px;
+    
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    }
+    .currnt-tr-im button{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+        border: none;
+        margin-right: 150px;
+    }
+
+    .currnt-tr-img{
+   
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        flex-direction: column;
+        
+        border-radius: 16px;
+        
+        border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+        }
+        .currnt-tr-img button{
+            color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+        border: none;
+        margin-right: 150px;
+        }
+/* handshack img  */
+.sha-sho {
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1140px;
+height: 314px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hand-text{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hand-text h3{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hand-text p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.sha-sho input{
+    width: 480px;
+height: 50px;box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+
+}
+.sha-sho button{
+    width: 120px;
+height: 54px;border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 8px;
+background: rgb(241, 237, 237);
+
+    
+  
+}
+.footer-first-section p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 .section title{
     font-size: 35px;
     font-weight: bold;
     color: #0D1321;
 }
-
 .section-description{
     font-size: 18px;
     color: #0D1321;
@@ -78,9 +316,7 @@ nav li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
-
 }
-
 .about{
     border-radius: 10px;
     padding: 80px 100px;
@@ -100,8 +336,3 @@ main{
     display: flex;
     gap: 24px;
 }
-
-/* .skill{
-    padding: 30px;
-    box-shadow: 0px 6px 50px 0px #FF4C1E;
-} */
